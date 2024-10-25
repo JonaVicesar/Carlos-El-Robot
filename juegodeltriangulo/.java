@@ -11,11 +11,11 @@ public class RobotJugador1 extends Robot {
 	private static final String DIRECCION_IZQUIERDA = "l";
 	
 	//Constructores
-	public Robotplayer1(Mundo m) {
+	public RobotJugador1(Mundo m) {
 		super(m);	
 	}
 	
-	public Robotplayer1(Mundo m, int fila, int columna, int dir, int capBol, int cantConos) {
+	public RobotJugador1(Mundo m, int fila, int columna, int dir, int capBol, int cantConos) {
 	    super(m, fila, columna, dir, capBol, cantConos);   
 	}
 	
